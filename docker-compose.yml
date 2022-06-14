@@ -88,14 +88,6 @@ services:
     ports:
       - "1337:1337"
 
-  # project:
-  #   build: ./project
-  #   restart: always
-  #   networks: 
-  #     - kong-net
-  #   ports:
-  #     - "3000:3000"
-
 networks:
   kong-net:
     driver: bridge
