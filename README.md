@@ -6,6 +6,6 @@ dotnet boiler plate
 # Setup 
 1. create docker network
 
-```
-docker network create kong-net
-```
+```docker network create kong-net```
+
+```docker-compose up -d```
