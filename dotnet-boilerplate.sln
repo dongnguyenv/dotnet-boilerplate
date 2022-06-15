@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LN.Infrastructure", "src\LN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LN.Core", "src\LN.Core\LN.Core.csproj", "{281A5473-5444-4130-AD38-48A1A4F681B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LN.LogManagement.API", "src\LN.LogManagement.API\LN.LogManagement.API.csproj", "{C35A7386-B1F2-4DC7-8776-8A4AD4F48859}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{281A5473-5444-4130-AD38-48A1A4F681B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{281A5473-5444-4130-AD38-48A1A4F681B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{281A5473-5444-4130-AD38-48A1A4F681B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C35A7386-B1F2-4DC7-8776-8A4AD4F48859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C35A7386-B1F2-4DC7-8776-8A4AD4F48859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C35A7386-B1F2-4DC7-8776-8A4AD4F48859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C35A7386-B1F2-4DC7-8776-8A4AD4F48859}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{8BCEE86E-E9C5-45AE-A4DA-430C3FAB2602} = {A418AB27-3D88-4023-86E0-DC60E5DC59F1}
 		{6B1F855D-804D-4076-BDE0-93C7BCD3C886} = {A418AB27-3D88-4023-86E0-DC60E5DC59F1}
 		{281A5473-5444-4130-AD38-48A1A4F681B1} = {A418AB27-3D88-4023-86E0-DC60E5DC59F1}
+		{C35A7386-B1F2-4DC7-8776-8A4AD4F48859} = {A418AB27-3D88-4023-86E0-DC60E5DC59F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4C9F648-24FF-4714-9B49-868EB654116B}

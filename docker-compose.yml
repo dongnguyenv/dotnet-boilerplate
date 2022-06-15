@@ -108,6 +108,23 @@ services:
       - ./aspnet/https:/https:ro
     networks:
       - kong-net
+  logmanagement-services:
+    container_name: logmanagement-services
+    build: 
+      context: ./src/LN.LogManagement.API
+      dockerfile: Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=qaz@WSX
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+    ports: 
+      - "6000:80"
+      - "6443:443"
+    volumes:
+      - ./aspnet/https:/https:ro
+    networks:
+      - kong-net
 
 networks:
   kong-net:
