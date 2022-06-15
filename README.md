@@ -24,6 +24,10 @@ dotnet boiler plate
 
 ## Build up log service
 
+```docker-compose up -d --build auth-service```
+
+## Build up auth service
+
 ```docker-compose up -d --build logmanagement-services```
 
 
@@ -45,6 +49,22 @@ dotnet boiler plate
 
 ```
 curl -i -X POST --url http://localhost:8001/services/logmanagement-service/routes --data "paths[]=/log-management" --data name="logmanagement-api"
+```
+
+## Register catalog route to catalog-service
+
+```curl -i -X POST --url http://localhost:8001/services/catalog-service/routes --data "paths[]=/catalog" --data name="catalog-api"```
+
+## Register auth service though kong gateway
+
+```
+curl -i -X POST --url http://localhost:8001/services/ --data name="auth-service" --data url="https://auth-service:443/"
+```
+
+## Register auth route to auth-service
+
+```
+curl -i -X POST --url http://localhost:8001/services/auth-service/routes --data "paths[]=/auth" --data name="auth-api"
 ```
 
 # Test configs
