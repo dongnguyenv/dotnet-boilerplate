@@ -102,5 +102,5 @@ curl -X 'GET' 'http://localhost:8000/log-management/logs' -H 'accept: text/plain
 ```
 
 ```
-curl -X 'GET' 'http://localhost:8000/log-management/logs' -H 'accept: text/plain'
+curl -X 'GET' 'http://localhost:8000/auth/WeatherForecast' -H 'accept: text/plain'
 ```
