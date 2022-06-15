@@ -11,11 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A418AB27-3D88-4023-86E0-DC60E5DC59F1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LN.Catalog.API", "src\Catalog.API\LN.Catalog.API.csproj", "{8BCEE86E-E9C5-45AE-A4DA-430C3FAB2602}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LN.Catalog.API", "src\LN.Catalog.API\LN.Catalog.API.csproj", "{8BCEE86E-E9C5-45AE-A4DA-430C3FAB2602}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LN.Infrastructure", "src\Infrastructure\LN.Infrastructure.csproj", "{6B1F855D-804D-4076-BDE0-93C7BCD3C886}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LN.Infrastructure", "src\LN.Infrastructure\LN.Infrastructure.csproj", "{6B1F855D-804D-4076-BDE0-93C7BCD3C886}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LN.Core", "src\Core\LN.Core.csproj", "{281A5473-5444-4130-AD38-48A1A4F681B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LN.Core", "src\LN.Core\LN.Core.csproj", "{281A5473-5444-4130-AD38-48A1A4F681B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
